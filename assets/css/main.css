@@ -24,6 +24,18 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+    
+      .workcontainer {
+        display: flex;
+        align-items: center;
+        justify-content: left
+      }
+      .worktext {
+        font-size: 13.4px;
+        padding-left: 20px;
+      }
+    
+
 body {
 	line-height: 1;
 }
@@ -36,13 +48,38 @@ body {
     border-radius: 50%;
 }
 
-.logo-img{ /*used for wave logo*/
+.work-image-cropper {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+	padding-right: 100px;
+	
+}
+
+.wave-logo-img{ /*used for wave logo*/
 	display: inline-block;
 	margin-top: -28%;
 	margin-left: -57%;
 	height: 160%;
 	width: auto;
 	position: absolute;
+}
+
+.logo-img{ /*used for wave logo*/
+	display: inline-block;
+	margin-top: 0%;
+	margin-left: -10%;
+	height: 100%;
+	width: auto;
+}
+
+.datazoom-logo-img{ /*used for wave logo*/
+	display: inline-block;
+	margin-top: 0%;
+	margin-left: -60%;
+	height: 100%;
+	width: auto;
 }
 
 .profile-pic {
@@ -711,6 +748,7 @@ input, select, textarea {
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
 		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 		position: fixed;
 		top: 0;
 		left: 0;

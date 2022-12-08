@@ -972,6 +972,13 @@ input, select, textarea {
 				line-height: 2;
 			}
 
+			#header .content p2 {
+				text-transform: uppercase;
+				letter-spacing: 0.2rem;
+				font-size: 0.95rem;
+				line-height: 1;
+			}
+
 		#header nav ul {
 			display: -moz-flex;
 			display: -webkit-flex;
